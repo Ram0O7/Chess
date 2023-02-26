@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 96vw;
+  width: 96vw;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #1005, 0 0 40px #0015;
+}
+
+.squire {
+  width: 12vw;
+  height: 12vw;
+  font-size: 9vw;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  #board{
+    height: 72vh;
+    width:72vh;
+  }
+  .squire{
+    width: 9vh;
+    height:9vh;
+    font-size: 6vh;
+  }
+}
