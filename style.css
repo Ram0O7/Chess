@@ -12,6 +12,11 @@ body {
   align-items: center;
 }
 
+button{
+  border: none;
+  background: none;
+}
+
 #board {
   display: flex;
   flex-wrap: wrap;
